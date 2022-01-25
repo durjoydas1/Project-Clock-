@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(33, 21, 85);
+    color: white;
+}
+.container{
+    display: flex;    
+}
+.name{
+    font-size: 5rem;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin-left: 100px;
+}
+.word1{
+    color: rgb(206, 85, 206);
+    opacity: 0.7;
+}
+.word2{
+    color: rgb(31, 175, 161);
+    opacity: 0.8;
+}
+.word3{
+    color: rgb(223, 74, 48);
+    opacity: 0.7;
+}
+.time{
+    position: relative;
+    box-sizing: border-box;
+    left: 150px;
+    top: 100px;
+    margin: 100px;
+    font-size: 5rem;
+    opacity: 0.8;
+    
+}
+#hour{
+    display: inline-block;
+    height: 100px;
+    width: 120px;
+    background-color: rgb(27, 151, 2);
+    text-align: center;
+    border-radius: 20px;  
+}
+#minute{
+    display: inline-block;
+    height: 100px;
+    width: 120px;
+    background-color: rgb(2, 129, 151);
+    text-align: center;
+    border-radius: 20px;
+}
+#second{
+    display: inline-block;
+    height: 100px;
+    width: 120px;
+    background-color: rgb(149, 151, 2);
+    text-align: center;
+    border-radius: 20px;
+}
+.day{
+    background-color: rgb(75, 54, 54);
+    width: 500px;
+    box-sizing: border-box;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5px;
+}
+#bar{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#period{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#date{
+    font-size: 1.5rem;
+    text-align: center;
+}
